@@ -21,13 +21,12 @@ test_set = torch.utils.data.DataLoader(test_data, batch_size=10, shuffle=False)
 class NeuralNetwork(nn.Module): 
     def __init__(self):
         super().__init__()
-        self.input_layer = nn.Linear(28*28, 50)
-        self.hidden_layer = nn.Linear(50, 50)
+        self.hidden_layer = nn.Linear(28*28, 50)
         self.output_layer = nn.Linear(50, 10)
     
     def forward(self, x):
-        x = F.relu(self.input_layer(x))
-        x = F.sigmoid(self.hidden_layer(x))
+        # x = F.relu(self.input_layer(x))
+        x = F.relu(self.hidden_layer(x))
         x = self.output_layer(x)
         return F.log_softmax(x, dim=1)
 
