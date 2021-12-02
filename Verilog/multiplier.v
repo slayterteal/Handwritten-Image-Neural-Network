@@ -28,7 +28,6 @@ generate
  assign product[i] = result_tmp[i][0];
  end 
 
-
  assign product[63:32] = {carry_tmp[31],result_tmp[31][31-:31]};
 endgenerate
 // testing for a specific overflow
@@ -36,9 +35,12 @@ endgenerate
 wire overflow_type = (((x>0)&&(y>0))||((x<0)&&(y<0))) ? 1'b1 : 1'b0;
 wire temp = (y[31:0] > 32'h0000_0000);
 wire is_overflow = product[63:32] > 32'h0000_0001;
-wire [31:0] overflow_result = overflow_type ? temp : 32'h8000_0000;
-// assign result[31:0] = is_overflow ? overflow_result : product[31:0];
-assign result[31:0] = temp;
+wire [31:0] overflow_result = overflow_type ? 32'h7fff_ffff : 32'h8000_0000;
+
+// truncated multiplication result
+// given the numbers I'm working with, every operation "should" be
+// able to fit into a 32 bit number.
+assign result[31:0] = is_overflow ? overflow_result : product[31:0]; 
 
 endmodule
 

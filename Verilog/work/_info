@@ -29,95 +29,95 @@ n@_opt1
 R2
 R0
 T_opt2
-!s110 1638154508
-VTdGZZGMSJ_aQlQNBTHT?d0
+!s110 1638308113
+Vj`c0C?j>R?;MLS5777[`U0
 04 13 4 work multiplier_tb fast 0
-=1-000c2999b16d-61a4410c-a1-aac
+=1-000c2999b16d-61a69910-391-2de4
 R3
 R1
 n@_opt2
 R2
 vadder
-Z4 !s110 1638152836
+!s110 1638308103
 !i10b 1
 !s100 `foSFWTUhIHXN[k>>[Ga>2
 IMGN7O]FKZzO1iL3`@<QDL0
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 dC:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dC:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog
 w1638150050
 8C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder.v
 FC:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder.v
 L0 3
-Z7 OL;L;10.7f;67
+Z6 OL;L;10.7f;67
 r1
 !s85 0
 31
-Z8 !s108 1638152836.000000
+Z7 !s108 1638308102.000000
 !s107 C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder.v|
 !i113 0
-Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vadder_tb
-R4
+Z9 !s110 1638308102
 !i10b 1
 !s100 keHlcDgCzC^7o`<X5?Q5O3
 IFAIRT_B;>kcGFF`3C57Q32
+R4
 R5
-R6
 w1638148336
 8C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder_tb.v
 FC:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder_tb.v
 L0 3
-R7
+R6
 r1
 !s85 0
 31
-R8
+R7
 !s107 C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder_tb.v|
 !i113 0
-R9
+R8
 R1
 vmultiplier
-!s110 1638154502
+R9
 !i10b 1
-!s100 ZGRR2ZOlS6Te?g@V2Bf8c1
-I;Z<jdb^6f;7l@bY6E2ITO1
+!s100 Io;4oEPe;:Z7VO32WA4gY3
+IM50>U3WQc:0EWgG?TUh`Z1
+R4
 R5
-R6
-w1638154478
+w1638308006
 8C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier.v
 FC:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier.v
 L0 3
-R7
+R6
 r1
 !s85 0
 31
-!s108 1638154502.000000
+R7
 !s107 C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier.v|
 !i113 0
-R9
+R8
 R1
 vmultiplier_tb
-!s110 1638152835
+R9
 !i10b 1
 !s100 0m7L6[?C];>X>m@gjRL<:1
 I_8LP:b@lizNAn:YzD:6>D2
+R4
 R5
-R6
 w1638152828
 8C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier_tb.v
 FC:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier_tb.v
 L0 2
-R7
+R6
 r1
 !s85 0
 31
-!s108 1638152835.000000
+R7
 !s107 C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier_tb.v|
 !i113 0
-R9
+R8
 R1
