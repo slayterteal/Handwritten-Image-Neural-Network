@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import transforms, datasets
-from fxpmath import Fxp
+import pickle
 
 training_data = datasets.MNIST('', train=True, download=True,
                             transform=transforms.Compose([transforms.ToTensor()]))
@@ -55,28 +55,18 @@ def getModelAccuracy(model, test_set):
 
     return round(correct/total, 3);
 
-def getWeightsAndBias(model):
-    parseToFixedPoint(model.state_dict())
+def writeStateDict(model):
+    # print(f"model state_dict: {model.state_dict()}")
+    with open("mlp_state_dict", "wb") as outfile:
+        pickle.dump(model.state_dict(), outfile)
 
-def parseToFixedPoint(state_dict):
-    for layer in state_dict:
-        with open(layer, "w") as outputFile:
-            for param in state_dict[layer]:    
-                if(param.size() != torch.Size([])):
-                    for item in param:
-                        outputFile.write(str(Fxp(item.item(), 
-                            n_int=8, n_frac=8, signed=True).raw())+ " ")
-                        outputFile.write("\n")
-                else:
-                    outputFile.write(str(Fxp(param.item(), 
-                            n_int=8, n_frac=8, signed=True).raw())+ "\n")
+if __name__ == "__main__":
+    model = NeuralNetwork()
+    optimizer = optim.Adam(model.parameters(), lr=0.001)
 
-model = NeuralNetwork()
-optimizer = optim.Adam(model.parameters(), lr=0.001)
-
-trainModel(model, optimizer, training_set)
-print("Accuracy: ", getModelAccuracy(model, test_set))
-getWeightsAndBias(model)
+    trainModel(model, optimizer, training_set)
+    print("Accuracy: ", getModelAccuracy(model, test_set))
+    writeStateDict(model)
 
 
 
