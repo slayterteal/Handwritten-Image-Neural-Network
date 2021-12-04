@@ -1,30 +1,16 @@
-{C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier.v}
-Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module multiplier
-
-Top level modules:
-	multiplier
-
-} {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/neuron.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/neuron.v}
+{C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/neuron.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/neuron.v}
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 -- Compiling module neuron
 
 Top level modules:
 	neuron
 
-} {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/relu.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/relu.v}
+} {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier.v}
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module relu
+-- Compiling module multiplier
 
 Top level modules:
-	relu
-
-} {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder.v}
-Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module adder
-
-Top level modules:
-	adder
+	multiplier
 
 } {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/multiplier_tb.v}
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
@@ -33,12 +19,26 @@ Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 Top level modules:
 	multiplier_tb
 
-} {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/memory.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/memory.v}
+} {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder.v}
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module memory
+-- Compiling module adder
 
 Top level modules:
-	memory
+	adder
+
+} {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/relu.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/relu.v}
+Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+-- Compiling module relu
+
+Top level modules:
+	relu
+
+} {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder_tb.v}
+Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
 
 } {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/relu_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/relu_tb.v}
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
@@ -47,12 +47,12 @@ Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 Top level modules:
 	relu_tb
 
-} {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/adder_tb.v}
+} {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/memory.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/memory.v}
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module adder_tb
+-- Compiling module memory
 
 Top level modules:
-	adder_tb
+	memory
 
 } {} {}} {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/memory_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/slayt/OneDrive - Oklahoma A and M System/Digital Integrated Circuit Design/Handwritten-Image-Neural-Network/Verilog/memory_tb.v}
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020

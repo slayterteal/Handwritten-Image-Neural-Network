@@ -1,7 +1,0 @@
-module halfadder(input [31:0] x,
-		 input [31:0] y,
-		 output c_out,
-		 output [31:0] result);
-
-	assign {c_out, result} = x + y;
-endmodule
