@@ -27,7 +27,7 @@ def writeWeightsAndBias():
                             result = toHex(Fxp(element.item(), n_int=total_bits-frac_bits, n_frac=frac_bits, signed=True).raw(), total_bits)
                             outfile.write(str(result).replace("0x", "") + " ")
                     else:
-                        result = toHex(Fxp(element.item(), n_int=total_bits-frac_bits, n_frac=frac_bits, signed=True).raw(), total_bits)
+                        result = toHex(Fxp(param.item(), n_int=total_bits-frac_bits, n_frac=frac_bits, signed=True).raw(), total_bits)
                         outfile.write(str(result).replace("0x", "") + "\n")
                         
 
