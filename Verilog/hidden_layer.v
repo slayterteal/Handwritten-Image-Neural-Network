@@ -10,11 +10,11 @@ module hidden_layer
     genvar i;
     generate
         for(i=0; i<50; i = i + 1) begin: neuron
-            memory #(.file("hidden_layer_bias.mem"), .num_of_inputs(50)) m (
+            memory #(.file("hidden_layer_bias.mem"), .num_of_inputs(50), .nn(1)) m (
                 .r_add(i),
                 .w_out(bias_value[i])
             );
-            neuron #(.weight_file("hidden_layer_weight.mem"), .num_of_weights(784)) n(
+            neuron #(.weight_file("hidden_layer_weight.mem"), .num_of_weights(784), .neurons_in_layer(50)) n(
                 .inputs(photo),
                 .bias_value(bias_value[i]),
                 .result(data[31+32*i:32*i])

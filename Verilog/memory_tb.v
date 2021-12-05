@@ -12,6 +12,8 @@ initial begin
 read_address = 32'h00000001;
 #100
 read_address = 32'h00000002;
+#100
+read_address = 9;
 
 end
 

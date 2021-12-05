@@ -5,19 +5,19 @@ Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 Top level modules:
 	multiplier_tb
 
-} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network_tb.v
-Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module neural_network_tb
-
-Top level modules:
-	neural_network_tb
-
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/output_layer.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/output_layer.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 -- Compiling module output_layer
 
 Top level modules:
 	output_layer
+
+} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network_tb.v
+Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+-- Compiling module neural_network_tb
+
+Top level modules:
+	neural_network_tb
 
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/relu_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/relu_tb.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
@@ -33,19 +33,19 @@ Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 Top level modules:
 	neuron
 
-} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network.v
-Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module neural_network
-
-Top level modules:
-	neural_network
-
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/hidden_layer.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/hidden_layer.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 -- Compiling module hidden_layer
 
 Top level modules:
 	hidden_layer
+
+} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network.v
+Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+-- Compiling module neural_network
+
+Top level modules:
+	neural_network
 
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/relu.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/relu.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
@@ -67,6 +67,13 @@ Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 
 Top level modules:
 	adder_tb
+
+} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory_tb.v
+Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+-- Compiling module memory_tb
+
+Top level modules:
+	memory_tb
 
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/multiplier.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/multiplier.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
