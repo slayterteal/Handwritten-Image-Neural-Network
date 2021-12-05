@@ -16,6 +16,9 @@ module neuron
 				.r_add(i),
 				.w_out(weight_value[i])
 			);
+			// multiplier m (.x(weight_value[i]),
+			// 	.y(inputs[31+32*i:32*i]),
+			// 	.result(multiply_results[i]));
 			assign multiply_results[i] = weight_value[i] * inputs[31+32*i:32*i];	
 		end
 	endgenerate
