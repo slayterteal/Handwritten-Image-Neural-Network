@@ -28,8 +28,18 @@ R2
 n@_opt1
 R3
 R0
+T_opt2
+!s110 1638669523
+V>6W;z=c4CzQPBRmP5k6XR3
+04 17 4 work neural_network_tb fast 0
+=1-000c2999b16d-61ac1ccf-2cb-1e98
+R1
+R2
+n@_opt2
+R3
+R0
 vadder
-Z4 !s110 1638669479
+Z4 !s110 1638670962
 !i10b 1
 !s100 `foSFWTUhIHXN[k>>[Ga>2
 IG1:jVRdZoPN7Mh?iKhaOA3
@@ -43,7 +53,7 @@ Z7 OL;L;10.7f;67
 r1
 !s85 0
 31
-Z8 !s108 1638669479.000000
+Z8 !s108 1638670962.000000
 !s107 C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/adder.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/adder.v|
 !i113 0
@@ -71,7 +81,7 @@ R8
 R9
 R2
 vhidden_layer
-Z11 !s110 1638669480
+Z11 !s110 1638670963
 !i10b 1
 !s100 ?o;iCQl?0fCjicKIOhcF?0
 Ij0=E7HjMCB`aNG8PIb0X73
@@ -85,7 +95,7 @@ R7
 r1
 !s85 0
 31
-Z12 !s108 1638669480.000000
+Z12 !s108 1638670963.000000
 !s107 C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/hidden_layer.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/hidden_layer.v|
 !i113 0
@@ -94,14 +104,14 @@ R2
 vmemory
 R4
 !i10b 1
-!s100 24VVOz3AHEUNb[]3KFnh81
-I[lWPQ45?5S0TR5]N1lYHX2
+!s100 HN47oEc6C<7LL>QjVaDgd3
+I^:I:4W33=I8C8>4KRDQ=L2
 R5
 R6
-w1638669473
+w1638670948
 8C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory.v
 FC:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory.v
-L0 5
+L0 2
 R7
 r1
 !s85 0
@@ -113,28 +123,28 @@ R8
 R9
 R2
 vmemory_tb
-R11
+!s110 1638671007
 !i10b 1
-!s100 OoWlGI2VH65H7?nPaR7<R0
-IgVXCZFDf:3:K2?6LV:7;Q2
+!s100 X2Ci[>I59CS0:d:A8Q:`^3
+IMo1_2ggmXccA?m8VeM2@f3
 R5
 R6
-R10
+w1638671002
 8C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory_tb.v
 FC:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory_tb.v
-L0 3
+L0 4
 R7
 r1
 !s85 0
 31
-R12
+!s108 1638671007.000000
 !s107 C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory_tb.v|
 !i113 0
 R9
 R2
 vmultiplier
-R11
+R4
 !i10b 1
 !s100 <zf89JHcSlX3`jU=FG[3]3
 I4GoPcI:E6?P5mCVRYOY^T2
@@ -148,14 +158,14 @@ R7
 r1
 !s85 0
 31
-R12
+R8
 !s107 C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/multiplier.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/multiplier.v|
 !i113 0
 R9
 R2
 vmultiplier_tb
-R11
+R4
 !i10b 1
 !s100 0m7L6[?C];>X>m@gjRL<:1
 I1g:SHGkXj5aN70MnO>D2g0
@@ -169,7 +179,7 @@ R7
 r1
 !s85 0
 31
-R12
+R8
 !s107 C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/multiplier_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/multiplier_tb.v|
 !i113 0
@@ -218,7 +228,7 @@ R12
 R9
 R2
 vneuron
-R11
+R4
 !i10b 1
 !s100 6[IfFXLZAjkZE_=X[9cYd0
 I3[VbMEPho6jO;GmNm]31[2
@@ -232,7 +242,7 @@ R7
 r1
 !s85 0
 31
-R12
+R8
 !s107 C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neuron.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neuron.v|
 !i113 0
@@ -260,7 +270,7 @@ R12
 R9
 R2
 vrelu
-R11
+R4
 !i10b 1
 !s100 2TjcIKP<d^_Jo]P[>@=eM3
 I279mcmKchlD5W?n;ZX^AN1
@@ -274,7 +284,7 @@ R7
 r1
 !s85 0
 31
-R12
+R8
 !s107 C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/relu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/relu.v|
 !i113 0

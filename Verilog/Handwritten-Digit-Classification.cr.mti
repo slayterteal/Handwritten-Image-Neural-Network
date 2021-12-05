@@ -26,6 +26,13 @@ Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 Top level modules:
 	relu_tb
 
+} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neuron.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neuron.v
+Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+-- Compiling module neuron
+
+Top level modules:
+	neuron
+
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 -- Compiling module neural_network
@@ -47,19 +54,19 @@ Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 Top level modules:
 	relu
 
+} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory.v
+Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+-- Compiling module memory
+
+Top level modules:
+	memory
+
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/adder_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/adder_tb.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 -- Compiling module adder_tb
 
 Top level modules:
 	adder_tb
-
-} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/memory_tb.v
-Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module memory_tb
-
-Top level modules:
-	memory_tb
 
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/multiplier.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/multiplier.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
