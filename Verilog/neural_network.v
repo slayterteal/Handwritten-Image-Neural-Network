@@ -8,7 +8,7 @@ module neural_network #(parameter image_file = "picture_1.mem")(
     genvar p;
     generate
         for(p=0; p < 784; p = p+1) begin: parse_image
-            memory #(.file(image_file), .num_of_inputs(50)) ph (
+            memory #(.file(image_file), .num_of_inputs(784), .nn(1)) ph (
                 .r_add(p),
                 .w_out(photo[31+32*p:32*p])
             );

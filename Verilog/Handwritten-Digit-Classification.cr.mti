@@ -33,19 +33,19 @@ Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 Top level modules:
 	neuron
 
-} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/hidden_layer.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/hidden_layer.v
-Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module hidden_layer
-
-Top level modules:
-	hidden_layer
-
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neural_network.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 -- Compiling module neural_network
 
 Top level modules:
 	neural_network
+
+} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/hidden_layer.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/hidden_layer.v
+Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+-- Compiling module hidden_layer
+
+Top level modules:
+	hidden_layer
 
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/relu.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/relu.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
@@ -60,6 +60,13 @@ Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 
 Top level modules:
 	memory
+
+} {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neuron_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/neuron_tb.v
+Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+-- Compiling module neuron_tb
+
+Top level modules:
+	neuron_tb
 
 } {} {}} C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/adder_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/slayt/Desktop/Handwritten-Image-Neural-Network/Verilog/adder_tb.v
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020

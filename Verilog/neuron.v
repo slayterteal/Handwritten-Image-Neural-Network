@@ -39,17 +39,18 @@ module neuron
 	wire signbit;
 	assign signbit = ($signed(summation_result) > 0); // 1 if pos, 0 if neg
 
-	wire [31:0] temp_result;
-	adder bias (.x(bias_value), 
+	wire [31:0] temp;
+	adder add_bias (.x(bias_value), 
 		.y(summation_result),
 		.c_in(1'b0),
 		.c_out(carry_out),
-		.sum(temp_result));
+		.sum(temp));
 	
 	// checking for positive or negative overflow
-	assign temp_result = carry_out ? 
-		(signbit ? 32'h7fff_ffff : 32'h8000_0000) 
-		: temp_result; 
+	wire [31:0] overflow_type;
+	wire [31:0] temp_result;
+	assign overflow_type = signbit ? 32'h7fff_ffff : 32'h8000_0000;
+	assign temp_result = carry_out ? overflow_type : temp; 
 	
 	relu final (.x(temp_result), .y(result)); // return result
 
