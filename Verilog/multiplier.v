@@ -6,32 +6,32 @@ module multiplier (
 	output [31:0] result);
 
 wire [31:0] x_tmp [31:0];
-wire [31:0] result_tmp [31:0]; 
-wire [31:0] carry_tmp;
+wire [31:0] temp_product [31:0]; 
+wire [31:0] carry;
 wire [63:0] product;
 
 genvar i,j;
 generate 
-	for(j = 0; j < 32; j = j + 1) begin: carry_gen
+	for(j = 0; j < 32; j = j + 1) begin: carry_generation
 		assign x_tmp[j] =  x & {32{y[j]}};
 	end
 	
-	assign result_tmp[0] = x_tmp[0];
-	assign carry_tmp[0] = 1'b0;
-	assign product[0] = result_tmp[0][0];
+	assign temp_product[0] = x_tmp[0];
+	assign carry[0] = 1'b0;
+	assign product[0] = temp_product[0][0];
 
 	for(i = 1; i < 32; i = i + 1) begin: multiplier
 		adder add (
 			.x(x_tmp[i]),
-			.y({carry_tmp[i-1],result_tmp[i-1][31-:31]}),
+			.y({carry[i-1],temp_product[i-1][31-:31]}),
 			.c_in(1'b0),
-			.c_out(carry_tmp[i]),
-			.sum(result_tmp[i]));
+			.c_out(carry[i]),
+			.sum(temp_product[i]));
 
-		assign product[i] = result_tmp[i][0];
+		assign product[i] = temp_product[i][0];
 	end 
 
-	assign product[63:32] = {carry_tmp[31],result_tmp[31][31-:31]};
+	assign product[63:32] = {carry[31],temp_product[31][31-:31]};
 endgenerate
 // testing for a specific overflow
 // 1 for pos_overflow, 0 for neg_overflow
